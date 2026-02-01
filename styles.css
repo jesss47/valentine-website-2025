@@ -44,7 +44,7 @@ body {
     z-index: 1;
 }
 
-.heart, .bear {
+.heart {
     position: absolute;
     font-size: 2rem;
     animation: float var(--float-duration) linear infinite;
@@ -87,26 +87,26 @@ body {
 }
 
 .secret-answer {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    margin-top: 0;
-    opacity: 0.2;
-    transition: opacity 0.3s;
-    transform: scale(0.7);
-    z-index: 2;
-    animation: subtle-hint 2s infinite alternate;
-    animation-delay: 5s;
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin: 16px auto 0 auto;
+    opacity: 1;
+    transition: opacity 0.2s ease, transform 0.2s ease;
+    transform: none;
+    z-index: 3;
+    font-size: 1.05rem;
+    color: var(--text-color);
+    padding: 6px 12px;
 }
 
 .secret-answer .cute-btn {
-    font-size: 0.8rem;
-    padding: 5px 10px;
+    font-size: 0.9rem;
+    padding: 6px 12px;
 }
 
 .secret-answer:hover {
-    opacity: 1;
-    animation: none;
+    transform: translateY(-2px);
 }
 
 .love-meter {
@@ -288,9 +288,25 @@ h2 {
     text-shadow: 2px 2px 4px rgba(255, 71, 87, 0.3);
 }
 
+/* Bright red celebration title */
+#celebrationTitle {
+    color: #ff0000;
+    font-size: 2.8em;
+    font-weight: 900;
+    text-shadow: 0 2px 8px rgba(255, 0, 0, 0.25);
+}
+
 @keyframes subtle-hint {
     0% { opacity: 0.2; }
     100% { opacity: 0.3; }
+}
+
+.celebration-gif {
+    width: 250px;
+    height: auto;
+    margin: 20px auto;
+    display: block;
+    border-radius: 10px;
 }
 
 .music-controls {

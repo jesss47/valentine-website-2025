@@ -59,7 +59,7 @@ GitHub: https://github.com/End2EndAI/valentine-website-2025
 ```
 
 ## ✨ Features
-- 💖 Floating hearts and bears
+- 💖 Floating hearts
 - 🎯 Interactive questions
 - 📏 Love meter that goes beyond 100%
 - 🏃‍♂️ Playful buttons that run away
@@ -90,9 +90,8 @@ valentineName: "Jade"                    // Your Valentine's name
 pageTitle: "Will You Be My Valentine? 💝" // Browser tab title
 
 // Floating Background Elements
-floatingEmojis: {
-    hearts: ['❤️', '💖', '💝', '💗', '💓'],  // Heart emojis in background
-    bears: ['🧸', '🐻']                       // Bear emojis in background
+    floatingEmojis: {
+    hearts: ['❤️', '💖', '💝', '💗', '💓']  // Heart emojis in background
 }
 
 // Questions and Buttons
