@@ -14,7 +14,7 @@ const CONFIG = {
     // Floating emojis that appear in the background
     // Find more emojis at: https://emojipedia.org
     floatingEmojis: {
-        hearts: ['❤️', '💖', '💝', '💗', '💓']  // Heart emojis
+        hearts: ['❤️', '💖', '❤️', '🩷']  // Heart emojis
     },
 
     // Questions and answers
@@ -24,7 +24,7 @@ const CONFIG = {
             text: "Will You Be My Valentine? 💝",                                    // First interaction
             yesBtn: "Yes",                                             // Text for "Yes" button
             noBtn: "No",                                               // Text for "No" button
-            secretAnswer: "NOOO? IS THAT EVEN A OPTION? "           // Secret hover message
+            secretAnswer: "NOOO? IS THAT EVEN AN OPTION? 🤨 "           // Secret hover message
         },
         second: {
             text: "How much do you love me?",                          // For the love meter

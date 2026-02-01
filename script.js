@@ -59,7 +59,7 @@ window.addEventListener('DOMContentLoaded', () => {
     validateConfig();
 
     // Set main question text with person's name
-    document.getElementById('mainQuestion').textContent = `${config.valentineName}, will you be my valentine? 💝`;
+    document.getElementById('mainQuestion').textContent = `${config.valentineName}, will you be my valentine? `;
     
     // Set button texts
     document.getElementById('yesBtn').textContent = "Yes ❤️";
@@ -112,8 +112,8 @@ function celebrate() {
     celebration.classList.remove('hidden');
     
     // Set celebration messages
-    document.getElementById('celebrationTitle').textContent = "Yayyyy! 😍🥳";
-    document.getElementById('celebrationMessage').textContent = `${config.valentineName}, I'm so excited to have you as my valentine 🥰🥰🥰!`;
+    document.getElementById('celebrationTitle').textContent = "Yayyyy!!! 😍🥳";
+    document.getElementById('celebrationMessage').textContent = `${config.valentineName}, I'm so excited to have you as my valentine!`;
     document.getElementById('celebrationEmojis').textContent = "❤️❤️❤️";
     
     // Create heart explosion effect
